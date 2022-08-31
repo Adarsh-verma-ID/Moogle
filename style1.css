@@ -1,0 +1,314 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body{
+  background: #919191;
+  padding: 0 20px;
+  color: #000000;
+  margin-top: 100px;
+}
+
+::selection{
+  color: #fff;
+  background: #664AFF;
+}
+
+.wrapper{
+  max-width: 450px;
+  
+}
+
+.wrapper .search-input{
+  background: #fff;
+  width: 100%;
+  border-radius: 5px;
+  position: relative;
+  box-shadow: 0px 1px 5px 3px rgba(0,0,0,0.12);
+  margin-top: 40px;
+}
+
+.search-input input{
+  height: 55px;
+  width: 100%;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  padding: 0 60px 0 20px;
+  font-size: 18px;
+  box-shadow: 0px 1px 5px rgb(0, 17, 255);
+  z-index: 10;
+  font-family: "minecraft";
+}
+.search-input input:hover{
+  height: 55px;
+  width: 100%;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  padding: 0 60px 0 20px;
+  font-size: 18px;
+  box-shadow: 0px 1px 5px rgb(255, 0, 0);
+  z-index: 10;
+
+}
+
+.search-input.active input{
+  border-radius: 5px 5px 0 0;
+}
+
+.search-input .autocom-box{
+  padding: 0;
+  opacity: 0;
+  pointer-events: none;
+  max-height: 280px;
+  overflow-y: auto;
+}
+
+.search-input.active .autocom-box{
+  padding: 10px 8px;
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.autocom-box li{
+  list-style: none;
+  padding: 8px 12px;
+  display: none;
+  width: 100%;
+  cursor: default;
+  border-radius: 3px;
+}
+
+.search-input.active .autocom-box li{
+  display: block;
+}
+.autocom-box li:hover{
+  background: #006eff;
+}
+
+.search-input .icon{
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  height: 55px;
+  width: 55px;
+  text-align: center;
+  line-height: 55px;
+  font-size: 20px;
+  color: #000000;
+  cursor: pointer;
+  background-color: #000000ad;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  fill:rgb(0, 17, 255);
+}
+.search-input .icon:hover{
+  color: #ff0000;
+  background-color: #000000;
+  fill:rgb(255, 0, 0);
+}
+.ifre iframe{ 
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.root1 {
+    background: #000000;
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    padding-top: 2px;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    box-shadow: 1px 0px 9px 4px rgb(255, 255, 255)
+}
+img{
+  height: 100px;
+}
+.root1 img{
+  height: 40px;
+  margin-top: 5px;
+  box-shadow: -0.1px -0.1px 10px 4px #242424;
+  border-radius: 100%;
+  background-color: #161616;
+  border: 1px solid rgb(0, 0, 0);
+}
+.root1 img:hover{
+  margin-top: 2.5px;
+
+}
+.root1 img:hover{
+  box-shadow: -0.1px -0.1px 10px 4px #ffffff;
+  border-radius: 100%;
+  border: 1px solid rgb(0, 0, 0);
+}
+.root {
+  background: #000000;
+  width: 100%;
+  height: 100px;
+  position: absolute;
+  padding-top: 2px;
+  left: 0;
+  box-shadow: 1px 0px 2px 4px rgb(0, 0, 0)
+ }
+ @media screen and (max-width:800px) {
+  .root {
+    background: #000000;
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    padding-top: 2px;
+    left: 0;
+    box-shadow: 1px 0px 2px 4px rgb(0, 0, 0)
+  }
+}
+@font-face {
+  font-family: "minecraft";
+  src: url(MinecraftBold-nMK1.ttf);
+}
+@font-face {
+  font-family: "fish";
+  src: url(MinecraftTen-VGORe.ttf);
+}
+
+.addapp{
+  width: 50px;
+  box-shadow: 1px 1px 10px 5px rgb(255, 255, 255);
+  height: 50px;
+  margin: 5%;
+  border-radius: 100%;
+  border: 3px solid rgb(184, 184, 184);
+  background: rgb(255, 255, 255);
+  transition: transform 0.5s;
+}
+.addapp:hover{
+  transform: rotateZ(360deg);
+}
+m{
+  color: hsl(172, 100%, 65%);
+  font-size: 200%;
+  font-family: "fish";
+}
+mi{
+  color: #ff0000;
+  font-size: 200%;
+  font-family: "fish";
+}
+a{
+  text-decoration: none;
+}
+m:hover{
+  color: #006eff;
+}
+mi:hover{
+  color: #ff009d;
+}
+.buttons-group1 {
+  display: flex;
+  flex-direction: row;
+  grid-column-gap: 1rem;
+  column-gap: 1rem;
+  grid-row-gap: 1rem;
+  row-gap: 1rem;
+  place-content: center;
+  flex-wrap: wrap;
+  transition: transform 0.5s;
+}
+.buttons-group1:hover {
+  transform: scale(0.9);
+}
+MINE{
+  color: #2600ff;
+  font-family: "fish";
+  font-size: 100px;
+  transition: transform 0.5s;
+  text-shadow: 10px 10px 10px rgb(0, 0, 0);
+  cursor: cell;
+}
+MINE:hover{
+  font-size: 101px;
+  color: #00f7ff;
+  transform: scale(10);
+  text-shadow: 10px 10px 10px rgb(4, 0, 255);
+} 
+MINE1{
+  color: #ff0000;
+  font-family: "fish";
+  font-size: 100px;
+  transition: transform 0.5s;
+  cursor: cell;
+}
+MINE1:hover{
+  font-size: 101px;
+  color: #ff7b00;
+  transform: scale(10);
+  text-shadow: 10px 10px 10px rgb(255, 0, 0);
+}
+MINE2{
+  color: #eeff00;
+  font-family: "fish";
+  font-size: 100px;
+  transition: transform 0.5s;
+  cursor: cell;
+}
+MINE2:hover{
+  font-size: 101px;
+  color: #eeff00;
+  transform: scale(10);
+  text-shadow: 10px 10px 10px rgb(255, 238, 0);
+}
+MINE3{
+  color: #1900ff;
+  font-family: "fish";
+  font-size: 100px;
+  transition: transform 0.5s;
+  cursor: cell;
+}
+MINE3:hover{
+  font-size: 101px;
+  color: #00f7ff;
+  transform: scale(10);
+  text-shadow: 10px 10px 10px rgb(0, 17, 255);
+}
+MINE4{
+  color: #00a308;
+  font-family: "fish";
+  font-size: 100px;
+  transition: transform 0.5s;
+  cursor: cell;
+}
+MINE4:hover{
+  font-size: 101px;
+  color: #00ff00;
+  transform: scale(10);
+  text-shadow: 10px 10px 10px rgb(15, 182, 0);
+}
+MINE5{
+  color: #ff0000;
+  font-family: "fish";
+  font-size: 100px;
+  transition: transform 0.5s;
+  cursor: cell;
+}
+MINE5:hover{
+  font-size: 101px;
+  color: #ff7b00;
+  transform: scale(10);
+  text-shadow: 10px 10px 10px rgb(255, 0, 0);
+}
+.addapps{
+  width: 50px;
+  box-shadow: 1px 1px 10px 5px rgb(255, 255, 255);
+  height: 50px;
+  margin: 5%;
+  border-radius: 100%;
+  border: 3px solid rgb(184, 184, 184);
+  background: rgb(255, 255, 255);zxcv b
+  cursor: pointer;
+}
