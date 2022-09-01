@@ -226,13 +226,13 @@ mi:hover{
 MINE{
   color: #2600ff;
   font-family: "fish";
-  font-size: 100px;
+  font-size: 88px;
   transition: transform 0.5s;
   text-shadow: 10px 10px 10px rgb(0, 0, 0);
   cursor: cell;
 }
 MINE:hover{
-  font-size: 101px;
+  font-size: 88px;
   color: #00f7ff;
   transform: scale(10);
   text-shadow: 10px 10px 10px rgb(4, 0, 255);
@@ -240,12 +240,12 @@ MINE:hover{
 MINE1{
   color: #ff0000;
   font-family: "fish";
-  font-size: 100px;
+  font-size: 88px;
   transition: transform 0.5s;
   cursor: cell;
 }
 MINE1:hover{
-  font-size: 101px;
+  font-size: 88px;
   color: #ff7b00;
   transform: scale(10);
   text-shadow: 10px 10px 10px rgb(255, 0, 0);
@@ -253,12 +253,12 @@ MINE1:hover{
 MINE2{
   color: #eeff00;
   font-family: "fish";
-  font-size: 100px;
+  font-size: 88px;
   transition: transform 0.5s;
   cursor: cell;
 }
 MINE2:hover{
-  font-size: 101px;
+  font-size: 88px;
   color: #eeff00;
   transform: scale(10);
   text-shadow: 10px 10px 10px rgb(255, 238, 0);
@@ -266,12 +266,12 @@ MINE2:hover{
 MINE3{
   color: #1900ff;
   font-family: "fish";
-  font-size: 100px;
+  font-size: 88px;
   transition: transform 0.5s;
   cursor: cell;
 }
 MINE3:hover{
-  font-size: 101px;
+  font-size: 88px;
   color: #00f7ff;
   transform: scale(10);
   text-shadow: 10px 10px 10px rgb(0, 17, 255);
@@ -279,12 +279,12 @@ MINE3:hover{
 MINE4{
   color: #00a308;
   font-family: "fish";
-  font-size: 100px;
+  font-size: 88px;
   transition: transform 0.5s;
   cursor: cell;
 }
 MINE4:hover{
-  font-size: 101px;
+  font-size: 88px;
   color: #00ff00;
   transform: scale(10);
   text-shadow: 10px 10px 10px rgb(15, 182, 0);
@@ -292,12 +292,12 @@ MINE4:hover{
 MINE5{
   color: #ff0000;
   font-family: "fish";
-  font-size: 100px;
+  font-size: 88px;
   transition: transform 0.5s;
   cursor: cell;
 }
 MINE5:hover{
-  font-size: 101px;
+  font-size: 88px;
   color: #ff7b00;
   transform: scale(10);
   text-shadow: 10px 10px 10px rgb(255, 0, 0);
@@ -309,6 +309,6 @@ MINE5:hover{
   margin: 5%;
   border-radius: 100%;
   border: 3px solid rgb(184, 184, 184);
-  background: rgb(255, 255, 255);zxcv b
+  background: rgb(255, 255, 255);
   cursor: pointer;
 }
