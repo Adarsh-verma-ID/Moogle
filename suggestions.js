@@ -1,5 +1,13 @@
 let suggestions = [
 "Adarshgamerlive",
 "google",
-"Craftgamee"
+"Craftgamee",
+"Github",
+"Netlify",
+"Youtube",
+"Cricket",
+"Cricket live", 
+"Cricket live score",
+"hackerrank",
+"hacker wallpaper"
 ];
