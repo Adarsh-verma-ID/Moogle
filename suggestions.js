@@ -1,3 +1,5 @@
 let suggestions = [
-"Adarshgamerlive"
+"Adarshgamerlive",
+"google",
+"Craftgamee"
 ];
