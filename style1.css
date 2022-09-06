@@ -380,8 +380,6 @@ hide{
           height: 200px;
           background-color: black;
           border-radius: 10px;
-          margin-left: 10px;
-          margin-right: 10px;
           margin-bottom: 10px;
           box-shadow: 10px 10px 10px 1px black;
           transition: transform 0.5s;
